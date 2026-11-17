@@ -1,0 +1,16 @@
+# Secretos
+.env
+.env.*
+!.env.example
+
+# Datos personales y bases locales (nunca al repositorio)
+data/*.db
+data/*.db-*
+storage/
+
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+frontend/node_modules/

@@ -1,0 +1,295 @@
+{
+  "generado": "2026-11-16 22:25",
+  "segundos": 1.4,
+  "perfiles": 13,
+  "cargos": 10,
+  "acierto_top1": 100.0,
+  "acierto_top3": 100.0,
+  "mrr": 1.0,
+  "estabilidad_pesos_tau_promedio": 0.983,
+  "estabilidad_pesos_tau_min": 0.897,
+  "propiedades": [
+    {
+      "check": "Pesos normalizados suman 1",
+      "ok": true,
+      "value": {
+        "technical": 0.4,
+        "power": 0.2,
+        "experience": 0.2,
+        "credentials": 0.2
+      }
+    },
+    {
+      "check": "Componentes no aplicables se redistribuyen (pesos efectivos suman 1)",
+      "ok": true,
+      "value": 1.0
+    },
+    {
+      "check": "Monotonía: agregar una competencia exigida no baja el puntaje",
+      "ok": true,
+      "value": [
+        36.9,
+        61.5
+      ]
+    },
+    {
+      "check": "Equivalencia ES↔EN (Trabajo en equipo = Teamwork)",
+      "ok": true,
+      "value": [
+        75.4,
+        75.4
+      ]
+    },
+    {
+      "check": "Obligatorio no cubierto quita la elegibilidad",
+      "ok": true,
+      "value": [
+        "Python"
+      ]
+    },
+    {
+      "check": "El contrato del motor no incluye atributos personales",
+      "ok": true,
+      "value": [
+        "certifications",
+        "edu_level",
+        "power",
+        "tech",
+        "years"
+      ]
+    }
+  ],
+  "detalle": [
+    {
+      "cargo": "Desarrollador(a) Backend Java",
+      "esperado": "santiago.herrera",
+      "posicion_esperado": 1,
+      "top3": [
+        {
+          "perfil": "santiago.herrera",
+          "puntaje": 95.3,
+          "elegible": true
+        },
+        {
+          "perfil": "felipe.ramirez",
+          "puntaje": 64.5,
+          "elegible": false
+        },
+        {
+          "perfil": "valentina.ospina",
+          "puntaje": 57.3,
+          "elegible": false
+        }
+      ],
+      "elegibles": 1
+    },
+    {
+      "cargo": "Desarrollador(a) Frontend React",
+      "esperado": "mariana.cardenas",
+      "posicion_esperado": 1,
+      "top3": [
+        {
+          "perfil": "mariana.cardenas",
+          "puntaje": 93.3,
+          "elegible": true
+        },
+        {
+          "perfil": "sebastian.molina",
+          "puntaje": 57.1,
+          "elegible": true
+        },
+        {
+          "perfil": "camilo.vega",
+          "puntaje": 59.7,
+          "elegible": false
+        }
+      ],
+      "elegibles": 2
+    },
+    {
+      "cargo": "Analista de Pruebas Automatizadas",
+      "esperado": "camilo.vega",
+      "posicion_esperado": 1,
+      "top3": [
+        {
+          "perfil": "camilo.vega",
+          "puntaje": 91.4,
+          "elegible": true
+        },
+        {
+          "perfil": "paula.rios",
+          "puntaje": 70.1,
+          "elegible": false
+        },
+        {
+          "perfil": "mariana.cardenas",
+          "puntaje": 63.2,
+          "elegible": false
+        }
+      ],
+      "elegibles": 1
+    },
+    {
+      "cargo": "Ingeniero(a) de Datos",
+      "esperado": "valentina.ospina",
+      "posicion_esperado": 1,
+      "top3": [
+        {
+          "perfil": "valentina.ospina",
+          "puntaje": 98.1,
+          "elegible": true
+        },
+        {
+          "perfil": "felipe.ramirez",
+          "puntaje": 71.2,
+          "elegible": false
+        },
+        {
+          "perfil": "tomas.quintero",
+          "puntaje": 64.1,
+          "elegible": false
+        }
+      ],
+      "elegibles": 1
+    },
+    {
+      "cargo": "Analista de Inteligencia de Negocio",
+      "esperado": "julian.restrepo",
+      "posicion_esperado": 1,
+      "top3": [
+        {
+          "perfil": "julian.restrepo",
+          "puntaje": 95.0,
+          "elegible": true
+        },
+        {
+          "perfil": "paula.rios",
+          "puntaje": 59.0,
+          "elegible": true
+        },
+        {
+          "perfil": "valentina.ospina",
+          "puntaje": 54.5,
+          "elegible": false
+        }
+      ],
+      "elegibles": 2
+    },
+    {
+      "cargo": "Ingeniero(a) Cloud",
+      "esperado": "andres.galeano",
+      "posicion_esperado": 1,
+      "top3": [
+        {
+          "perfil": "andres.galeano",
+          "puntaje": 94.3,
+          "elegible": true
+        },
+        {
+          "perfil": "tomas.quintero",
+          "puntaje": 84.5,
+          "elegible": true
+        },
+        {
+          "perfil": "felipe.ramirez",
+          "puntaje": 70.2,
+          "elegible": false
+        }
+      ],
+      "elegibles": 2
+    },
+    {
+      "cargo": "Ingeniero(a) DevOps",
+      "esperado": "tomas.quintero",
+      "posicion_esperado": 1,
+      "top3": [
+        {
+          "perfil": "tomas.quintero",
+          "puntaje": 94.1,
+          "elegible": true
+        },
+        {
+          "perfil": "andres.galeano",
+          "puntaje": 60.0,
+          "elegible": true
+        },
+        {
+          "perfil": "felipe.ramirez",
+          "puntaje": 78.8,
+          "elegible": false
+        }
+      ],
+      "elegibles": 2
+    },
+    {
+      "cargo": "Científico(a) de Datos",
+      "esperado": "laura.pineda",
+      "posicion_esperado": 1,
+      "top3": [
+        {
+          "perfil": "laura.pineda",
+          "puntaje": 97.6,
+          "elegible": true
+        },
+        {
+          "perfil": "felipe.ramirez",
+          "puntaje": 65.6,
+          "elegible": false
+        },
+        {
+          "perfil": "paula.rios",
+          "puntaje": 63.4,
+          "elegible": false
+        }
+      ],
+      "elegibles": 1
+    },
+    {
+      "cargo": "Ingeniero(a) de MLOps",
+      "esperado": "felipe.ramirez",
+      "posicion_esperado": 1,
+      "top3": [
+        {
+          "perfil": "felipe.ramirez",
+          "puntaje": 97.3,
+          "elegible": true
+        },
+        {
+          "perfil": "andres.galeano",
+          "puntaje": 93.3,
+          "elegible": true
+        },
+        {
+          "perfil": "tomas.quintero",
+          "puntaje": 93.3,
+          "elegible": true
+        }
+      ],
+      "elegibles": 4
+    },
+    {
+      "cargo": "Líder de Proyecto Ágil",
+      "esperado": "daniela.torres",
+      "posicion_esperado": 1,
+      "top3": [
+        {
+          "perfil": "daniela.torres",
+          "puntaje": 95.0,
+          "elegible": true
+        },
+        {
+          "perfil": "valentina.ospina",
+          "puntaje": 53.8,
+          "elegible": false
+        },
+        {
+          "perfil": "mariana.cardenas",
+          "puntaje": 36.9,
+          "elegible": false
+        }
+      ],
+      "elegibles": 1
+    }
+  ],
+  "nota": "Referencia construida con datos sintéticos alineados a cada cargo: mide coherencia interna del motor, no validez predictiva con personas reales."
+}
